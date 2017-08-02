@@ -1,0 +1,72 @@
+footer {
+    position: relative;
+    border: 3px solid #4d951f;
+    height: 60px;
+    width: 100%;
+}
+
+nav {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    /*float: left;*/
+    border: 3px solid #95345b;
+    width: 25%;
+}
+
+section {
+    position: relative;
+    border: 3px solid #ffbf03;
+    height: 100px;
+}
+
+.column {
+    position: relative;
+    border: 2px solid #951b39;
+    display: inline-block;
+    vertical-align: top;
+    width: 74%;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.main {
+    position: relative;
+}
+
+.container {
+    border: 2px solid #549572;
+    /*padding: 0;*/
+}
+
+.con {
+    background: #549572;
+}
+
+.foo {
+    background: #4d951f;
+}
+
+.nav {
+    background: #95345b;
+}
+
+.sec {
+    background: #ffbf03;
+}
+
+.label {
+    top: 0;
+    left: 0;
+}
+
+.endlabel {
+    bottom: 0;
+    right: 0;
+}
+
+.label, .endlabel {
+    position: absolute;
+}

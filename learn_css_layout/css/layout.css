@@ -1,0 +1,60 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 3px solid #4d951f;
+    height: 60px;
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    border: 3px solid #95345b;
+    height: 300px;
+    width: 200px;
+}
+
+section {
+    position: relative;
+    border: 3px solid #ffbf03;
+    height: 100px;
+    margin-left: 200px;
+}
+
+.main {
+    position: relative;
+}
+
+.container {
+    border: 2px solid #549572;
+}
+
+.con {
+    background: #549572;
+}
+
+.foo {
+    background: #4d951f;
+}
+
+.nav {
+    background: #95345b;
+}
+
+.sec {
+    background: #ffbf03;
+}
+
+.label {
+    top: 0;
+    left: 0;
+}
+
+.endlabel {
+    bottom: 0;
+    right: 0;
+}
+
+.label, .endlabel {
+    position: absolute;
+}

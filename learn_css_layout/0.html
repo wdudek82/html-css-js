@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Title</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="./index.html">Index</a></li>
+        </ul>
+    </div>
+
+    <p id="display-types"></p>
+    <p class="paragraph">
+        Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus.
+        Curabitur arcu erat, accumsan id imperdiet et, <span class="inline">porttitor at sem</span>.
+        Sed porttitor lectus nibh. Nulla porttitor accumsan tincidunt.
+    </p>
+
+    <table>
+        <tr>
+            <td class="inline">a</td>
+            <td>b</td>
+            <td>c</td>
+        </tr>
+        <tr>
+            <td>d</td>
+            <td>e</td>
+            <td>f</td>
+        </tr>
+    </table>
+
+    <div>
+        Unordered List:
+        <ul>
+            <li class="inline">one</li>
+            <li class="inline">two</li>
+            <li class="inline">three</li>
+        </ul>
+    </div>
+
+    <p>
+        Display types:
+        <a href="#" onclick="changeDisplay('initial')">initial</a>
+        <a href="#" onclick="changeDisplay('inline')">inline</a>
+        <a href="#" onclick="changeDisplay('block')">block</a>
+        <a href="#" onclick="changeDisplay('inline-block')">inline-block</a>
+        <a href="#" onclick="changeDisplay('none')">none</a>
+        <a href="#" onclick="changeDisplay('hidden')">hidden</a>
+    </p>
+
+    <p>
+        Visibility types:
+        <a href="#" onclick="changeVisibility('visible')">visible</a>
+        <a href="#" onclick="changeVisibility('hidden')">hidden</a>
+        <a href="#" onclick="changeVisibility('collapse')">collapse</a>
+    </p>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
